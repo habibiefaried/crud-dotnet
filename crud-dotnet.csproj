@@ -7,4 +7,9 @@
     <RootNamespace>crud_dotnet</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MySqlConnector" Version="2.2.6" />
+    <PackageReference Include="Newtonsoft.json" Version="13.0.3" />
+  </ItemGroup>
+
 </Project>

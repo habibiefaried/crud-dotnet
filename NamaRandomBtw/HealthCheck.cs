@@ -1,4 +1,4 @@
-public static class HealthCheck
+public class HealthCheck
 {
     public static string GetHealthCheck()
     {

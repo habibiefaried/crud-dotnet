@@ -10,6 +10,7 @@ public class Program
         var app = builder.Build();
 
         app.MapGet("/healthz", () => HealthCheck.GetHealthCheck());
+        app.MapGet("/users", () => Users.GetUsers());
 
         app.Run();
     }
